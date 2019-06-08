@@ -9,6 +9,9 @@
   overflow: hidden;
 }
 
+#home {
+  background-color: #f3f4f9;
+}
 /* .main-header {
   background: url(../img/redpanda.jpg);
   background-size: cover;
@@ -45,6 +48,7 @@
 
 .section-contact {
   position: relative;
+  padding-top: 0px;
 }
 
 .section-contact .card-panel {
@@ -52,20 +56,6 @@
   z-index: 1;
 }
 
-#googlemap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
-@media (max-width: 600px) {
-  .main-header {
-    height: 50vh;
-  }
-}
 
 /*Carousel*/
 
@@ -86,4 +76,235 @@
 
 #wild {
   text-shadow: 2px 2px 8px #000000;
+}
+
+.section-about .about-text {
+  text-shadow: 2px 2px 8px #000000;
+}
+
+/*About Us*/
+.section-about {
+  background-image: url(../img/blurimage.jpg);
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+/*Section About*/
+.section-about .card-content {
+  background-color: #4f4943;
+}
+
+.section-about .primary-overlay{
+  background: rgba(98, 84, 119, 0.301);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.main-header .header-text {
+  background-color: #af8652;
+}
+
+.main-header #logo{
+  margin-left: -120px;
+ 
+}
+
+.main-header #radpanda {
+  position: fixed;
+}
+
+.section-contact .main-text{
+  background-image: url(../img/image2.jpg);
+  background-color: grey;
+  width: 50px;
+  height: 700px;
+  z-index: 1;
+  
+} 
+
+.dot {
+  border-bottom: 1px dotted #ffffff;
+}
+
+.line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #ffffff; 
+}
+
+
+.section-contact .contact{
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 0px;
+ text-shadow: 2px 2px 8px #000000;
+
+}
+
+.section-contact #contact{
+  padding-left: 50px;
+  text-shadow: 2px 2px 8px #000000;
+  background: rgba(51, 52, 53, 0.3);
+}
+
+.section-contact #first_name{
+  width: 150%;
+ 
+}
+
+.section-contact #email{
+  width: 150%;
+}
+
+textarea {
+  width: 150%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box; 
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.section-contact #contact-list {
+  padding-left: 30px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+
+
+#p {
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.section-contact #contact {
+  margin-bottom: -100px;
+  z-index: 2;
+}
+
+.section-contact #section-background {
+  background-image: url(/img/image2.jpg);
+
+  z-index: -0;
+}
+
+.section-card #message {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.section-card {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+  right: 600px;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.section-contact .collection-item {
+right: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.stocktonplace {
+  /* The image used */
+  background-image: url('../img/stockton.jpg');
+  height: 100%; 
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stock {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.stockonplace2{
+  background-image: url(../img/stockton2.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.stocktonplace, .stockonplace2, .stocktonplace3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.stocktonplace3 {
+  /* The image used */
+  background-image: url('../img/image1.jpg');
+  height: 100%; 
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stockonplace4{
+  background-image: url(../img/stockton2.jpg);
+  min-height: 400px;
 }
